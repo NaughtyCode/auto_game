@@ -8,6 +8,17 @@
 
 提供放松有趣的昆虫观察体验，玩家可以观察不同昆虫的自然行为和互动，包括打架行为。游戏重点是模拟昆虫世界，让玩家享受观察和发现的乐趣。
 
+## Current Milestone: v1.0 Core Simulation
+
+**Goal:** Build the core insect simulation system for observing insect behaviors in a natural 3D environment.
+
+**Target features:**
+- 昆虫模拟系统 — 不同昆虫的行为模拟，包括移动、觅食、互动等
+- 多种昆虫类型 — 至少3-5种不同昆虫，如蛐蛐、蚂蚁、蜘蛛、甲虫等
+- 自然环境场景 — 草地、泥土、石头等自然环境，昆虫可以在其中活动
+- 观察者视角 — 自由移动的相机，玩家可以观察昆虫行为
+- 简单用户界面 — 昆虫信息显示、观察提示等基础界面
+
 ## Requirements
 
 ### Validated
@@ -16,14 +27,18 @@
 
 ### Active
 
+**Core Simulation (Milestone v1.0):**
 - [ ] 昆虫模拟系统 — 不同昆虫的行为模拟，包括移动、觅食、互动等
-- [ ] 昆虫打架行为 — 模拟昆虫之间的打架行为，有简单规则和动画
 - [ ] 多种昆虫类型 — 至少3-5种不同昆虫，如蛐蛐、蚂蚁、蜘蛛、甲虫等
-- [ ] 3D昆虫模型 — 真实或卡通风格的昆虫3D模型和动画
 - [ ] 自然环境场景 — 草地、泥土、石头等自然环境，昆虫可以在其中活动
 - [ ] 观察者视角 — 自由移动的相机，玩家可以观察昆虫行为
+- [ ] 用户界面 — 昆虫信息显示、观察提示等基础界面
+
+**Future Milestones:**
+- [ ] 昆虫打架行为 — 模拟昆虫之间的打架行为，有简单规则和动画
+- [ ] 3D昆虫模型 — 真实或卡通风格的昆虫3D模型和动画
 - [ ] 互动系统 — 玩家可以投放食物或轻微干扰昆虫行为
-- [ ] 用户界面 — 昆虫信息显示、观察提示、环境控制等
+- [ ] 环境控制 — 高级环境交互和控制界面
 
 ### Out of Scope
 
@@ -79,4 +94,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-17 after initialization*
+*Last updated: 2026-04-17 — Milestone v1.0 started*

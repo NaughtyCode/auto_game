@@ -1,0 +1,22 @@
+[package]
+name = "shadow-following"
+version = "0.1.0"
+edition = "2021"
+description = "A modular implementation of the shadow following algorithm for game synchronization"
+authors = ["Developer"]
+license = "MIT"
+
+[dependencies]
+rand = { version = "0.10", features = ["std"] }
+
+[lib]
+name = "shadow_following"
+path = "src/lib.rs"
+
+[[example]]
+name = "demo"
+path = "examples/demo.rs"
+
+[[example]]
+name = "simple"
+path = "examples/simple.rs"

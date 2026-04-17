@@ -1,11 +1,11 @@
 ---
 phase: 2
 slug: basic-insect-implementation
-status: draft
+status: approved
 shadcn_initialized: false
 preset: none
 created: 2026-04-17
-reviewed_at: 2026-04-17 11:12:56
+reviewed_at: 2026-04-17 19:03:32
 ---
 
 # Phase 2 — UI Design Contract
@@ -105,17 +105,17 @@ Accent reserved for: Spawn Cricket, Spawn Ant, Spawn Spider buttons, hover highl
 | Registry | Blocks Used | Safety Gate |
 |----------|-------------|-------------|
 | shadcn official | none | not required |
-| Godot Asset Library | none | not required |
+| Godot Asset Library | none | no blocks used — vetting not required |
 
 ---
 
 ## Checker Sign-Off
 
-- [ ] Dimension 1 Copywriting: PASS
-- [ ] Dimension 2 Visuals: PASS
-- [ ] Dimension 3 Color: PASS
-- [ ] Dimension 4 Typography: PASS
-- [ ] Dimension 5 Spacing: PASS
-- [ ] Dimension 6 Registry Safety: PASS
+- [✓] Dimension 1 Copywriting: PASS
+- [✓] Dimension 2 Visuals: PASS
+- [✓] Dimension 3 Color: PASS
+- [✓] Dimension 4 Typography: PASS
+- [✓] Dimension 5 Spacing: PASS
+- [✓] Dimension 6 Registry Safety: PASS
 
-**Approval:** pending
+**Approval:** approved

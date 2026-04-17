@@ -35,7 +35,14 @@
   3. Player can see basic insect animations (walking, idle)
   4. Player can see insects positioned appropriately on terrain surfaces
   5. Camera automatically maintains a reasonable viewing distance when insects are present
-**Plans:** TBD
+**Plans:** 5 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — Create insect base scene with primitive shapes, skeleton, and stats resource
+- [ ] 02-02-PLAN.md — Implement procedural texture generation for insect patterns
+- [ ] 02-03-PLAN.md — Add skeletal animations with state machine and blending
+- [ ] 02-04-PLAN.md — Create insect manager and spawn populations on terrain
+- [ ] 02-05-PLAN.md — Implement automatic camera distance maintenance with smooth interpolation
 
 ### Phase 3: Simulation Behaviors
 **Goal:** Player can observe insects exhibiting natural behaviors: moving, seeking food, interacting, and responding to stimuli  
@@ -68,7 +75,7 @@
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Environment & Camera Setup | 0/? | Not started | - |
-| 2. Basic Insect Implementation | 0/? | Not started | - |
+| 2. Basic Insect Implementation | 0/5 | Not started | - |
 | 3. Simulation Behaviors | 0/? | Not started | - |
 | 4. UI & Enhanced Camera | 0/? | Not started | - |
 

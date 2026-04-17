@@ -2,14 +2,14 @@
 
 **Project:** 蛐蛐大作战 (Cricket Fighting Game)
 **Researched:** 2026-04-17
-**Confidence:** LOW (Web search unavailable; based on GitHub repository analysis, training data, and limited official documentation verification)
+**Confidence:** MEDIUM (Web search partially available; verified Godot version, Blender version, and GitHub template existence; some official documentation still limited)
 
 > ⚠️ **重要验证说明**
 > 
-> 由于缺乏实时网络验证，以下技术版本信息基于研究时的数据（2026-04-17）。在实际开始每个阶段开发前，请验证：
+> 以下技术版本信息已基于2026-04-17的验证（Godot 4.6.2、Blender 5.1、GitHub模板存在）。技术栈版本会随时间变化，在实际开始每个阶段开发前，建议验证最新状态：
 > 1. **Godot版本**：访问 [godotengine.org](https://godotengine.org/download) 确认最新稳定版本
 > 2. **Blender版本**：检查 [blender.org](https://www.blender.org/download/) 获取最新版本
-> 3. **GitHub模板**：验证 `https://github.com/Cute-Fame-Studio/3D-TurnBasedCombat` 仓库是否仍然可用
+> 3. **GitHub模板**：验证 `https://github.com/Cute-Fame-Studio/3D-TurnBasedCombat` 仓库是否仍然可用（已确认存在）
 > 
 > 建议在阶段1开始前进行一次技术栈验证，并在后续阶段开始时重新评估。
 
@@ -21,8 +21,8 @@
 |------------|---------|---------|-----------------|
 | Godot Engine | 4.6.2-stable | Game engine for 3D turn-based combat | Latest stable version with improved 3D rendering, physics, and GDScript 2.0. Godot 4.x has modern Vulkan renderer, global illumination, and better 3D workflows compared to Godot 3.x. |
 | GDScript | 4.6.2 | Primary scripting language | Native to Godot, tightly integrated with editor, fast iteration, easy for small teams. Preferred over C# for smaller projects due to simplicity and better editor integration. |
-| Blender | 4.2+ | 3D modeling, rigging, animation | Industry-standard open-source tool; exports glTF 2.0 format that Godot imports natively with materials and animations. |
-| Audacity | 3.6+ | Audio editing and sound effects | Free, cross-platform audio editor for creating and modifying SFX. |
+| Blender | 5.1+ | 3D modeling, rigging, animation | Industry-standard open-source tool; exports glTF 2.0 format that Godot imports natively with materials and animations. Current stable version is 5.1 (March 2026). |
+| Audacity | 3.7.7+ | Audio editing and sound effects | Free, cross-platform audio editor for creating and modifying SFX. Current stable version is 3.7.7. |
 | Git | 2.46+ | Version control | Standard for collaborative development; Godot projects are file-based and work well with Git. |
 
 ### Supporting Libraries & Plugins
@@ -110,10 +110,11 @@ code --install-extension georgealexakis.godot-tools
 
 ## Sources
 
-- GitHub API search for "godot turn-based" repositories (2026-04-17) — identified `3D-TurnBasedCombat` template and `godot-open-rpg` reference
-- Godot Engine GitHub releases API — latest stable version 4.6.2
-- Training data on Godot 4 features and best practices (LOW confidence without recent verification)
-- Limited official documentation access (403 Forbidden); used curl with user-agent to fetch basic feature list
+- GitHub repository verification (2026-04-17) — confirmed `Cute-Fame-Studio/3D-TurnBasedCombat` template exists and is described as "3D Open-Source Turn-Based Combat Template (Godot)"
+- Godot Engine website verification — confirmed latest stable version is 4.6.2
+- Wikipedia Blender version check — confirmed current stable version is Blender 5.1 (March 2026)
+- Audacity website verification — confirmed latest version is 3.7.7
+- Training data on Godot 4 features and best practices — supplemented with recent web verification
 
 ---
 *Stack research for: 3D turn-based cricket fighting game with Godot*

@@ -1,7 +1,7 @@
 ---
 phase: 2
 slug: basic-insect-implementation
-status: approved
+status: draft
 shadcn_initialized: false
 preset: none
 created: 2026-04-17
@@ -61,10 +61,10 @@ Exceptions: none
 |------|-------|-------|
 | Dominant (60%) | #1E1E1E | UI background, overlay surfaces |
 | Secondary (30%) | #2D2D2D | Panels, debug controls, sidebar |
-| Accent (10%) | #4CAF50 | Spawn Insect button, hover highlights, active debug controls |
+| Accent (10%) | #4CAF50 | Spawn Cricket, Spawn Ant, Spawn Spider buttons, hover highlights, active debug controls |
 | Destructive | #F44336 | Any remove actions (none in this phase) |
 
-Accent reserved for: Spawn Insect button, hover highlights, active debug controls only
+Accent reserved for: Spawn Cricket, Spawn Ant, Spawn Spider buttons, hover highlights, active debug controls only
 
 ---
 
@@ -72,28 +72,30 @@ Accent reserved for: Spawn Insect button, hover highlights, active debug control
 
 | Element | Copy |
 |---------|------|
-| Primary CTA | Spawn Insect |
+| Primary CTA | Spawn Insect (section heading) |
 | Empty state heading | No insects present |
-| Empty state body | Click "Spawn Insect" to add an insect to the environment |
+| Empty state body | Click "Spawn Cricket", "Spawn Ant", or "Spawn Spider" to add an insect to the environment. |
 | Error state | Failed to spawn insect. Please try again or check console for errors. |
 | Destructive confirmation | (none in this phase) |
+
+**Species button labels:** "Spawn Cricket", "Spawn Ant", "Spawn Spider"
 
 ---
 
 ## Visuals
 
-**Focal point:** Spawn Insect button is the primary visual anchor in the debug panel.
+**Focal point:** Three species spawn buttons are the primary visual anchors in the debug panel.
 
 **Visual hierarchy:**
-1. **Primary action:** Spawn Insect button (largest, accent color)
+1. **Primary actions:** Spawn Cricket, Spawn Ant, Spawn Spider buttons (largest, accent color)
 2. **Readouts:** Insect count and camera distance (secondary emphasis)
-3. **Debug controls:** Secondary actions (remove controls, species spawn options)
+3. **Debug controls:** Secondary actions (remove controls, etc.)
 4. **Labels & indicators:** Informational text (smallest visual weight)
 
 **Layout placement:**
 - **Insect count display:** Top-left corner
 - **Species identification labels:** On hover near insect
-- **Debug spawn/remove controls:** Bottom-right panel
+- **Debug spawn/remove controls:** Bottom-right panel (contains the three species buttons grouped together)
 - **Camera distance indicator:** Bottom-left corner
 
 ---

@@ -67,7 +67,17 @@ Plans:
   3. Player can access camera controls via on-screen UI elements
   4. Player can see basic game status (time, observation count, etc.)
   5. Player can track a specific insect with the camera follow mode
-**Plans:** TBD  
+**Plans:** 8 plans
+
+Plans:
+- [ ] 04-01-PLAN.md — Create UI theme and panel scenes (insect info, observation hints, camera controls, game status, tracking indicator)
+- [ ] 04-02-PLAN.md — Implement insect selection system with raycast and info panel update
+- [ ] 04-03-PLAN.md — Implement camera follow mode with smooth tracking
+- [ ] 04-04-PLAN.md — Connect camera controls UI buttons to camera actions
+- [ ] 04-05-PLAN.md — Implement game status panel with time and observation count
+- [ ] 04-06-PLAN.md — Implement observation hint system with queue and behavior events
+- [ ] 04-07-PLAN.md — Add UI animations and visual feedback (slide, fade, pulse, hover)
+- [ ] 04-08-PLAN.md — Enhance insect info panel with simulation state (hunger, energy, behavior)
 **UI hint:** yes
 
 ## Progress
@@ -77,7 +87,7 @@ Plans:
 | 1. Environment & Camera Setup | 0/? | Not started | - |
 | 2. Basic Insect Implementation | 0/5 | Not started | - |
 | 3. Simulation Behaviors | 0/? | Not started | - |
-| 4. UI & Enhanced Camera | 0/? | Not started | - |
+| 4. UI & Enhanced Camera | 0/8 | Not started | - |
 
 ---
 *Roadmap created: 2026-04-17 for Milestone v1.0 Core Simulation*

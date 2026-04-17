@@ -4,6 +4,15 @@
 **Researched:** 2026-04-17
 **Confidence:** LOW (Web search unavailable; based on GitHub repository analysis, training data, and limited official documentation verification)
 
+> ⚠️ **重要验证说明**
+> 
+> 由于缺乏实时网络验证，以下技术版本信息基于研究时的数据（2026-04-17）。在实际开始每个阶段开发前，请验证：
+> 1. **Godot版本**：访问 [godotengine.org](https://godotengine.org/download) 确认最新稳定版本
+> 2. **Blender版本**：检查 [blender.org](https://www.blender.org/download/) 获取最新版本
+> 3. **GitHub模板**：验证 `https://github.com/Cute-Fame-Studio/3D-TurnBasedCombat` 仓库是否仍然可用
+> 
+> 建议在阶段1开始前进行一次技术栈验证，并在后续阶段开始时重新评估。
+
 ## Recommended Stack
 
 ### Core Technologies

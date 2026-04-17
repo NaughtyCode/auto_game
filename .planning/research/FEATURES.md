@@ -94,10 +94,11 @@ Prioritize:
 3. **Anthropomorphic cricket characters** (one cricket model with basic animations) - key differentiator
 
 Defer: 
-- **Environment interactions**: Can start with static arenas, add interactivity later
 - **Multiple cricket species**: Start with one balanced cricket type
 - **Day/night effects**: Add visual polish after core gameplay works
 - **Morale system**: Too complex for MVP
+
+**Note on environment interactions:** User explicitly requested interactive environments (grass, sand, indoor with interactive elements). While research suggests deferring complex interactions for MVP, the user's vision includes environment effects on gameplay. Consider including simple terrain modifiers (e.g., sand reduces speed, grass provides defense bonus) as part of MVP to align with user requirements.
 
 **MVP Feature Set:**
 - Turn order system (simple player-AI alternation)
@@ -105,7 +106,7 @@ Defer:
 - Health and action point resources
 - Basic UI showing HP, AP, actions
 - One cricket character model with basic animations
-- One environment (grass) without interactive elements
+- One environment (grass) with simple interactive elements or terrain modifiers
 - AI that uses random actions (upgrade later)
 - Win/lose conditions and restart
 - Camera rotation controls (simple)

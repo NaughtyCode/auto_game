@@ -12,9 +12,9 @@ Critical pitfalls include coupling animation timing with game logic, hardcoded f
 
 ## Key Findings
 
-**Stack:** Godot 4.6.2 + GDScript + Blender for 3D models, using resource-based configuration for balancing.  
-**Architecture:** Centralized Battle Manager with event delegation, Battler components for crickets, separate AI and Environment managers.  
-**Critical pitfall:** Embedding game logic in animation timelines causes desync and limits iteration; must use signal-based damage application.
+**Stack:** Godot 4.6.2 + GDScript + Blender for 3D models, using resource-based configuration for balancing. [See STACK.md]  
+**Architecture:** Centralized Battle Manager with event delegation, Battler components for crickets, separate AI and Environment managers. [See ARCHITECTURE.md]  
+**Critical pitfall:** Embedding game logic in animation timelines causes desync and limits iteration; must use signal-based damage application. [See PITFALLS.md]
 
 ## Implications for Roadmap
 
